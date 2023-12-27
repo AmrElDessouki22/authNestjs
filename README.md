@@ -33,6 +33,7 @@ $ chmod +x ./create-db.sh
 # change "host": "postgres", to "host": "localhost", in /src/app/app.module.ts
 
 # add your db info in .env.local DATABASE_NAME='xramile' , DATABASE_USERNAME='xramile' , DATABASE_PASSWORD='xramile' , DATABASE_DIALECT='postgres'
+# Usually, I should not push the .env.local, but I will push it to make testing easier.
 
 # upgrade migrations
 $ npm run db:update:migration
