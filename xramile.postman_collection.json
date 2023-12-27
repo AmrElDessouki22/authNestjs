@@ -1,0 +1,603 @@
+{
+	"info": {
+		"_postman_id": "4da9dafa-846c-4e08-9d6a-c5e536ab7320",
+		"name": "xramile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14039474"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE1LCJyZWZyZXNoIjpmYWxzZSwidHlwZSI6IkJlYXJlciIsImlhdCI6MTcwMzYyOTAxMCwiZXhwIjoxNzAzNjI5OTEwfQ.o1VvEiALp_PlMB1r_e9PItTVFBYJYyUJV1zwLSBhPRs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users/15",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"15"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/users/15",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users",
+										"15"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "126"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"7e-eFI0r2eMGwhIjGb9OWISIx8cPx8\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 22:17:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 15,\n    \"name\": \"ADwdwW\",\n    \"email\": \"test@amr.com\",\n    \"createdAt\": \"2023-12-26T22:06:00.544Z\",\n    \"updatedAt\": \"2023-12-26T22:07:22.361Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "put",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE1LCJyZWZyZXNoIjpmYWxzZSwidHlwZSI6IkJlYXJlciIsImlhdCI6MTcwMzYyOTAxMCwiZXhwIjoxNzAzNjI5OTEwfQ.o1VvEiALp_PlMB1r_e9PItTVFBYJYyUJV1zwLSBhPRs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"erqwdqwdww\",\n    \"email\":\"wdwqdqwwwww@text.com\",\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users/15",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users",
+								"15"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\":\"erqwdqwdww\",\n    \"email\":\"wdwqdqwwwww@text.com\",\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/users/15",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users",
+										"15"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "144"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"90-R00rxfXqJ+tO8CyhY7fpXTfJ3yk\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 22:28:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    1,\n    [\n        {\n            \"id\": 15,\n            \"name\": \"erqwdqwdww\",\n            \"email\": \"wdwqdqwwwww@text.com\",\n            \"createdAt\": \"2023-12-26T22:06:00.544Z\",\n            \"updatedAt\": \"2023-12-26T22:28:44.183Z\"\n        }\n    ]\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"test@amr23.com\",\n    \"password\":\"4fjfjfurE$vDE\",\n    \"name\":\"ADwdwW\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\":\"test@amr.com\",\n    \"password\":\"4fjfjfurE$vDE\",\n    \"name\":\"ADwdwW\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/auth/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"auth",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "42"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2a-nMoFx54+czTntmSLXl3mqIsZV4A\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 21:36:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User registered successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"test@amr23.com\",\n    \"password\":\"4fjfjfurE$vDE\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\":\"test@amr.com\",\n    \"password\":\"4fjfjfurE$vDE\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/auth/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "425"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1a9-Hy6tJX217W4Q/88sbtfxdMSNPw0\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 21:41:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEzLCJyZWZyZXNoIjpmYWxzZSwidHlwZSI6IkJlYXJlciIsImlhdCI6MTcwMzYyNjg3MCwiZXhwIjoxNzAzNjI3NzcwfQ.RQ20oZxJ4dEZeUWyAX3Qc45D7FwPZ_TAYg3M5HpZkzs\",\n    \"exp\": 1703627770,\n    \"refreshToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEzLCJyZWZyZXNoIjp0cnVlLCJ0eXBlIjoiQmVhcmVyIiwiaWF0IjoxNzAzNjI2ODcwLCJleHAiOjE3MDQyMzE2NzB9.mWGUlnCGdrK3tJMWz3EP49YCOjCayzPse7LgXIcQHsA\"\n}"
+						}
+					]
+				},
+				{
+					"name": "change-passowrd",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxLCJyZWZyZXNoIjpmYWxzZSwidHlwZSI6IkJlYXJlciIsImlhdCI6MTcwMzY2MDEzNCwiZXhwIjoxNzAzNjYxMDM0fQ.vRyQrhe7C5ioythnSue9mJGSqc7lsfLOzRSi3q5sjjI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"current\":\"4fjfjfurE$vDE\",\n    \"newPassword\":\"wefeeef9efeAs&a\",\n    \"newPasswordAgain\":\"wefeeef9efeAs&a\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/change-password",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"change-password"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "change-passowrd",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"current\":\"wefeeef9efeAs&\",\n    \"newPassword\":\"wefeeef9efeAs&a\",\n    \"newPasswordAgain\":\"wefeeef9efeAs&a\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/auth/change-password",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"auth",
+										"change-password"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "30"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1e-lakmr+DKqfX/l24uCPnpB/kr9GQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 22:07:22 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Password updated\"\n}"
+						}
+					]
+				},
+				{
+					"name": "refresh-token",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-refresh-token",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxLCJyZWZyZXNoIjp0cnVlLCJ0eXBlIjoiQmVhcmVyIiwiaWF0IjoxNzAzNjYwMTE4LCJleHAiOjE3MDQyNjQ5MTh9.-OyJxSD717L53Xyw1gCCWJ6pMw5Z9bxyVp_6ozEVfAY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/auth/refresh-token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"refresh-token"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-refresh-token",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxLCJyZWZyZXNoIjp0cnVlLCJ0eXBlIjoiQmVhcmVyIiwiaWF0IjoxNzAzNjYwMTE4LCJleHAiOjE3MDQyNjQ5MTh9.-OyJxSD717L53Xyw1gCCWJ6pMw5Z9bxyVp_6ozEVfAY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/auth/refresh-token",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"auth",
+										"refresh-token"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "222"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"de-7tDeF0xJP0S/ErTJ28p/pygbZac\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 Dec 2023 06:55:34 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxLCJyZWZyZXNoIjpmYWxzZSwidHlwZSI6IkJlYXJlciIsImlhdCI6MTcwMzY2MDEzNCwiZXhwIjoxNzAzNjYxMDM0fQ.vRyQrhe7C5ioythnSue9mJGSqc7lsfLOzRSi3q5sjjI\",\n    \"exp\": 1703661034\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "healthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

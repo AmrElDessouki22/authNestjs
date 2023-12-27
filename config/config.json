@@ -1,0 +1,26 @@
+{
+    "development": {
+        "username": "xramile",
+        "password": "xramile",
+        "database": "xramile",
+        "host": "postgres",
+        "synchronize": true,
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "xramile",
+        "password": "xramile",
+        "database": "xramile",
+        "host": "postgres",
+        "synchronize": true,
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "xramile",
+        "password": "xramile",
+        "database": "xramile",
+        "host": "postgres",
+        "synchronize": true,
+        "dialect": "postgres"
+    }
+}

@@ -1,0 +1,33 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: xramile
+      POSTGRES_USER: xramile
+      POSTGRES_PASSWORD: xramile
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+
+  adminer:
+    image: adminer:latest
+    depends_on:
+      - postgres
+    ports:
+      - "8086:8080"
+
+  app:
+    build:
+      context: .
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
