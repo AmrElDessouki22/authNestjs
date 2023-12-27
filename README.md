@@ -42,4 +42,23 @@ $ npm run db:update:migration
 $ npm run start:dev
 ```
 
+## DB local 
+```bash
+# after the adminer is up
+$ npm run adminer
+
+# visit http://localhost:8080/adminer.php and login to manage you db
+
+# some times you will need to login in the host with your ip:db port if prostgres / localhost didn't work 
+```
+
+## DB Docker 
+```
+# visit 
+http://localhost:8086 and login to manage you db
+
+# some times you will need to login in the host with your ip:db port if prostgres / localhost didn't work 
+
+```
+
 
